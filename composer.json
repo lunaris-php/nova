@@ -1,0 +1,26 @@
+{
+    "name": "lunaris/nova",
+    "version": "0.0.2",
+    "description": "The CLI library for lunaris framework.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lunaris\\Nova\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Bhaswanth Chiruthanuru",
+            "email": "bhaswanth.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "splitbrain/php-cli": "dev-master"
+    }
+}
