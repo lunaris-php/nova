@@ -18,7 +18,7 @@
                 class {$commandName}
                 {
                     use Loggable;
-                    
+
                     private string \$path;
                     private array \$args;
 
@@ -30,6 +30,7 @@
                     public function execute(): void {
                         // Write your command logic on execution
                         // Use \$args in your logic as needed
+                        \$this->info("Command has been created");
                     }
                 }
             PHP;

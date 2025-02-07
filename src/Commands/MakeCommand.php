@@ -22,7 +22,7 @@
             $moduleName = $args['module'] ?? 'Main';
 
             $content = Template::command($moduleName, $commandName);
-            $modulePath = $projectRoot . "/src/Modules/" . $moduleName;
+            $modulePath = $projectRoot . "/src/modules/" . $moduleName;
             $commandFolderPath = $this->checkCommandsFolder($modulePath);
             if($commandFolderPath) {
                 $this->generate($commandName, $content, $commandFolderPath);
