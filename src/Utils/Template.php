@@ -13,8 +13,12 @@
 
                 namespace Module\\{$moduleName}\\Commands;
 
+                use Lunaris\\Nova\\Utils\\Loggable;
+
                 class {$commandName}
                 {
+                    use Loggable;
+                    
                     private string \$path;
                     private array \$args;
 
